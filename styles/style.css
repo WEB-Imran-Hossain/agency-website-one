@@ -1,4 +1,71 @@
+/* common style here */
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* this is header section */
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    gap:30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-item:hover{
+    color: rgb(245, 44, 44)
+}
+/* this banner section here */
+
+.banner-container{
+    height: 100vh;
+    background-image: url('../asset/image/background.jpg'), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.banner-title{
+    font-size: 86px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.title-color{
+    color: rgb(245, 44, 44);
+}
+
+.title-description{
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn-primary{
+    background-color: rgb(245, 44, 44);
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
 }
