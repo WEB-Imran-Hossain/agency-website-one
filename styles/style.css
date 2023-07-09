@@ -143,8 +143,23 @@
     padding: 100px;
 }
 
+.service-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 .service-description{
-    width: 50%;
+    width: 75%;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.service-list{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 .author-img{
