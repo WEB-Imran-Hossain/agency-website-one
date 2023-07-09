@@ -12,6 +12,7 @@
     align-items: center;
     background-color: gray;
     cursor: pointer;
+    padding: 20px;
 }
 
 .menu{
@@ -20,6 +21,7 @@
     font-size: 18px;
     text-transform: uppercase;
     transition: all 0.3s;
+    color: #fff;
 }
 
 .menu-item{
@@ -39,9 +41,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
+    justify-content: center;
     
 }
 
@@ -58,9 +60,10 @@
 .title-description{
     color: #fff;
     font-size: 22px;
+    margin-top: 15px;
 }
 
-.btn-primary{
+.btn-primary-left{
     background-color: rgb(245, 44, 44);
     color: #fff;
     padding: 15px 35px;
@@ -68,4 +71,26 @@
     border: none;
     margin: 5px;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary-right{
+    background-color: #fff;
+    color: #000;
+    padding: 15px 35px;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary-left:hover{
+    background-color: #fff;
+    color:rgb(245, 44, 44);
+}
+
+.btn-primary-right:hover{
+    background-color:rgb(245, 44, 44);
+    color: #fff;
 }
