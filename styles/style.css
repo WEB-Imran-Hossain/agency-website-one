@@ -35,7 +35,7 @@
 
 .banner-container{
     height: 100vh;
-    background-image: url('../asset/image/background.jpg'), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@
 
 .service-container{
     height: 100vh;
-    background-image: url('../asset/image/footer-bg.png'), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@
 
 .author-img{
     width: 70px;
-   height: 70px;
+    height: 70px;
     border-radius: 50px;
 
 }
@@ -251,4 +251,13 @@
 
 .appointment-description{
     padding: 100px;
+}
+
+.consulation{
+    font-size: 15px;
+}
+
+.consulation-number{
+    font-size: 30px;
+    font-style: bold;
 }
