@@ -278,3 +278,15 @@
     margin: auto;
     text-align: center;
 }
+
+.card{
+    width: 243px;
+    height: 350px;
+    background-color: #fff;
+}
+
+.blog-img{
+    width: 350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
