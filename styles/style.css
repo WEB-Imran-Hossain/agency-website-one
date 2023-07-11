@@ -346,9 +346,16 @@
 }
 
 .footer-logo{
-    width: 170px;
+    width: 25%;
 }
 
 .logo-description{
     font-size: 14px;
+    margin-top: 15px;
+    line-height: 2em;
+}
+
+.social-link li{
+   padding: 10px;
+   font-size: 20px;
 }
