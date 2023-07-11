@@ -333,7 +333,7 @@
 /* this is footer section here*/
 .footer-container{
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
     background-repeat: no-repeat;
     background-blend-mode: overlay;
@@ -358,4 +358,30 @@
 .social-link li{
    padding: 10px;
    font-size: 20px;
+   cursor: pointer;
+}
+
+.footer-heading{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.footer-link-item{
+    list-style: none;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.footer-info{
+   text-align: center;
+   background-color:
+}
+
+.line-style{
+    width: 50%;
+    margin: auto;
+}
+
+.footer-short-info{
+    display:flex;
 }
